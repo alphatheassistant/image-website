@@ -9,8 +9,6 @@
     "noUnusedParameters": false,
     "noEmit": false,
     "skipLibCheck": true,
-    "suppressImplicitAny": true, // Suppress errors for implicit 'any' types
-    "suppressImplicitAnyIndexErrors": true, // Additional suppression
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
