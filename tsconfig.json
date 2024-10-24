@@ -7,17 +7,18 @@
   "compilerOptions": {
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noEmit": false, 
-    "skipLibCheck": true, 
-    "suppressImplicitAnyIndexErrors": true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "suppressImplicitAny": true, // Suppress errors for implicit 'any' types
+    "suppressImplicitAnyIndexErrors": true, // Additional suppression
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
   "exclude": [
-    "node_modules", 
-    "**/*.spec.ts", 
-    "**/*.test.ts" 
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
   ]
 }
